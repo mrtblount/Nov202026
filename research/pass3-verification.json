@@ -1,0 +1,273 @@
+{
+ "verify": [
+  {
+   "key": "statements",
+   "claims": [
+    {
+     "claim": "Microsoft 365 outage began about 16:20 UTC (11:20 a.m. ET) Nov 12 2026 and ended about 16:10 UTC Nov 13; Microsoft cited a latent defect in a fix deployed in July 2026 to network gateway servers.",
+     "verdict": "confirmed",
+     "source_url": "https://bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage",
+     "exact_text_seen": "BleepingComputer: incident 'began at 11:20 AM ET on Thursday, November 12, and continued until 11:10 AM ET the following day'. IBTimes (https://www.ibtimes.co.uk/microsoft-365-outage-dormant-software-defect-1832656): active impact 'from 16:20 UTC on 12 November until 16:10 UTC on 13 November'. Preliminary PIR: 'A latent defect caused servers to become overwhelmed and unresponsive under certain load conditions'; defect in 'a fix prepared for Microsoft 365 networking gateway servers, which was deployed starting in July'.",
+     "corrected_value": "Caveat: 16:10 UTC Nov 13 is the end of active impact. Microsoft kept monitoring and declared full recovery on Nov 14. Some early reports gave a start of 16:17 UTC.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "Microsoft posted on X on Nov 13 2026 that it was \"a technical issue not related to cyber or AI / agents\".",
+     "verdict": "confirmed",
+     "source_url": "https://kuow.org/technology/2026-11-13/microsoft-says-outage-not-caused-by-ai-or-cyber-attack",
+     "exact_text_seen": "Microsoft described the incident as a \"technical issue not related to cyber or AI/agents.\" Coverage dates the post to November 13, 2026 (also Windows Central, PC Gamer, PCWorld).",
+     "corrected_value": "Published wording is 'AI/agents' with no spaces around the slash."
+    },
+    {
+     "claim": "Charles Lamanna (Microsoft) wrote on X: \"At its lowest, more than 80% of servers were unresponsive.\"",
+     "verdict": "confirmed",
+     "source_url": "https://www.foxbusiness.com/technology/microsoft-reveals-hidden-bug-behind-global-outlook-microsoft-365-outage",
+     "exact_text_seen": "Fox Business: \"At its lowest, more than 80% of servers were unresponsive,\" Lamanna wrote. 9to5mac (Nov 16): 'at the worst point, more than 80% of its servers were unresponsive'.",
+     "corrected_value": "The servers in question were Microsoft 365 networking gateway servers. One aggregator (TechBytes) calls Lamanna a Corporate Vice President; other coverage calls him EVP for Copilot, Agents and Platform."
+    },
+    {
+     "claim": "National Cyber Director Sean Cairncross told Semafor (Nov 16 2026): \"this is not any sort of coordinated, nefarious cyberattack\" and \"service disruptions coming from updating and modernizing legacy systems\".",
+     "verdict": "confirmed",
+     "source_url": "https://www.semafor.com/article/11/16/2026/trump-cyber-director-ai-labs-extremely-good-about-sharing-models",
+     "exact_text_seen": "Semafor (URL dated 11/16/2026): Cairncross described the outages as \"not any sort of coordinated, nefarious cyberattack from a malicious actor\". methodshop.com (https://methodshop.com/?p=149992) quotes him on what to expect instead: \"service disruptions coming from updating and modernizing legacy systems.\"",
+     "corrected_value": "The full first quote ends '...from a malicious actor.' I saw the second phrase only in methodshop's secondary account, not in Semafor's own text."
+    },
+    {
+     "claim": "A senior Trump administration official on a background call (Nov 18 2026): \"We have a great deal of confidence in our assessment that these incidents are the result of upgrades of the systems, systems being patched, hardware being applied.\"",
+     "verdict": "confirmed",
+     "source_url": "https://www.newsbeep.com/815162/",
+     "exact_text_seen": "Senior administration official, speaking anonymously on a Wednesday (Nov 18) phone briefing with news outlets: \"We have a great deal of confidence in our assessment that these incidents are the result of upgrades of the systems, systems being patched, hardware being applied\". Capwolf adds '...or other disparate events.'",
+     "corrected_value": "The quote continues with 'other disparate events'. Its wording comes only from secondhand reporting; I saw no transcript of the call."
+    },
+    {
+     "claim": "DNI Jay Clayton at the House Homeland Security hearing Nov 18 2026: \"these are separate service outages associated with maintenance and technical changes\".",
+     "verdict": "confirmed",
+     "source_url": "https://baynews9.com/fl/tampa/politics/2026/11/18/top-national-security-officials-say-no-malicious-activity-involved-with-recent-tech-outages",
+     "exact_text_seen": "One outlet quotes Clayton calling them 'separate service outages associated with maintenance and technical changes'. At the Nov 18 House Homeland Security Committee hearing ('Worldwide Threats to the Homeland') he also said \"They are not a coordinated or state-sponsored attack.\""
+    },
+    {
+     "claim": "DNI Jay Clayton, White House post Nov 17 2026: \"This is not a cyberattack and this is not a coordinated effort by a nation-state.\"",
+     "verdict": "confirmed",
+     "source_url": "https://www.whitehouse.gov/videos/this-is-not-a-cyberattack-and-this-is-not-a-coordinated-effort-by-a-nation-state-dni-jay-clayton/",
+     "exact_text_seen": "White House video dated November 17, 2026, titled \"This is not a cyberattack and this is not a coordinated effort by a nation-state\" - DNI Jay Clayton. GMA/ABC: \"This is not a cyberattack, and this is not a coordinated effort by a nation-state,\" Clayton said during an interview with CNBC on Tuesday.",
+     "corrected_value": "Clayton said it first in a CNBC interview on Tuesday, Nov 17. The White House then posted a clip on whitehouse.gov. I could not confirm a post on X."
+    },
+    {
+     "claim": "The Washington Sun (Nov 17 2026) reported, citing three sources, that Wall Street executives and the NSA told members of Congress the outages were caused by attempts to fix vulnerabilities identified by artificial intelligence.",
+     "verdict": "confirmed",
+     "source_url": "https://thenextweb.com/news/us-outages-patches-ai-found-flaws-nsa-banks-washington-sun",
+     "exact_text_seen": "The Washington Sun reported on Nov. 17, citing three sources familiar with private discussions... government and bank officials told lawmakers the outage was not due to a cyberattack but occurred when patches applied to fix security vulnerabilities found by an AI model temporarily overloaded systems.",
+     "corrected_value": "TNW said it had not verified the report."
+    },
+    {
+     "claim": "Sen. Mark Warner statement Nov 17 2026 includes: \"AI is making it possible to identify vulnerabilities across enormous numbers of systems at unprecedented speed, creating enormous pressure on companies and government agencies to patch those vulnerabilities\".",
+     "verdict": "confirmed",
+     "source_url": "https://wjla.com/news/nation-world/ai-is-finding-security-flaws-faster-than-companies-can-safely-fix-them",
+     "exact_text_seen": "TNW: Warner said on X, \"AI is making it possible to identify vulnerabilities across enormous numbers of systems at unprecedented speed.\" WJLA text: 'AI is making it possible to identify vulnerabilities across enormous numbers of systems at unprecedented speed, creating enormous pressure on companies and government agencies to patch those vulnerabilities immediately.' Warner Senate release dated Tues., Nov. 17, 2026.",
+     "corrected_value": "Caveat: TNW attributes the first half to Warner directly. A search summary read the second half in WJLA as the article's own narration, so its attribution to Warner is less certain. The sentence ends with 'immediately'."
+    },
+    {
+     "claim": "Secretary of State Marco Rubio, Nov 17 2026 in Manila: \"We are not under systemic attack\" / \"zero evidence\".",
+     "verdict": "confirmed",
+     "source_url": "https://www.newstribune.com/news/2026/nov/19/rubio-says-we-are-not-under-systemic-attack-after/",
+     "exact_text_seen": "Rubio told reporters \"We are not under systemic attack.\" Officials had \"zero evidence whatsoever\" linking the incidents or tying them to nefarious actors (AP via OPB/AJC; Free Press Journal headline 'Marco Rubio Says Zero Evidence...').",
+     "corrected_value": "Date nuance: he spoke on Wednesday morning, Nov 18, Manila time, which was Tuesday evening, Nov 17, in the US. AP's headline uses 'zero information'."
+    },
+    {
+     "claim": "DHS Secretary Markwayne Mullin to CNBC Nov 17 2026: \"I can tell you with complete certainty that we are not under attack.\"",
+     "verdict": "confirmed",
+     "source_url": "https://dailysignal.com/2026/11/17/mullin-answers-if-americans-should-fear-cyber-threat/",
+     "exact_text_seen": "Daily Signal (Nov 17): \"I can tell you with complete certainty that we are not under attack\u2014there's no cyber threat that's taken place\", said to CNBC. AP: Mullin told CNBC he could say \"with complete certainty\" that the US is not under attack.",
+     "corrected_value": "Caveat: the Daily Beast's account of the CNBC segment also has him saying '98 percent certainty'."
+    },
+    {
+     "claim": "Rep. Jim Himes said the increased pace of patching \"could cause more frequent outages\".",
+     "verdict": "confirmed",
+     "source_url": "https://cybersecuritydive.com/news/technology-outages-cyberattacks-ai-house-hearing/875148",
+     "exact_text_seen": "\"It is possible that the increased pace of vulnerability discovery and patching could cause more frequent outages, but the breakneck pace of patching we have seen in recent months is vital to shore up the security of all IT infrastructure.\""
+    },
+    {
+     "claim": "A JPMorgan spokesperson told Fortune OpenAI tools \"were not a factor in the outage\".",
+     "verdict": "confirmed",
+     "source_url": "https://fortune.com/2026/11/18/ai-played-a-major-role-in-the-nsa-banking-outages-but-not-in-the-way-you-may-think/",
+     "exact_text_seen": "Search engine: 'The exact phrase appears in a Fortune article from November 18, 2026. A JPMorgan Chase spokesperson said OpenAI's tools played no role in the bank's outage', which the bank attributed to 'a temporary issue related to a software bug in on-premise hardware systems.'",
+     "corrected_value": "Caveat: the search engine said the exact phrase matched the Fortune article, but its snippet showed only a paraphrase ('played no role')."
+    },
+    {
+     "claim": "Cloud Security Alliance research note (Nov 18 2026) found \"no public evidence that such patching caused any specific outage in the cluster\".",
+     "verdict": "confirmed",
+     "source_url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-november-outage-cluster-correlated-fragili/",
+     "exact_text_seen": "CSA note 'The November Outage Cluster: Correlated Fragility and Attribution' states it found \"no public evidence that such patching caused any specific outage in the cluster\". Virtualization Review: 'the CSA's Nov. 18 investigation found no evidence connecting AI-related patching to the recent outages'."
+    },
+    {
+     "claim": "Reuters (Nov 18 2026) headline: \"Surge in software patches likely behind recent tech outages; bank regulators on alert\".",
+     "verdict": "confirmed",
+     "source_url": "https://www.thestandard.com.hk/world/article/348962/Surge-in-software-patches-likely-behind-recent-tech-outages-bank-regulators-on-alert",
+     "exact_text_seen": "Headline 'Surge in software patches likely behind recent tech outages; bank regulators on alert' (The Standard HK, The Daily Guardian). Reuters story by AJ Vicens and Nupur Anand, November 18, 2026; republished Nov 19.",
+     "corrected_value": "Several outlets ran a different version of the headline: 'Surge in software patches likely behind recent tech outages, experts say'."
+    }
+   ]
+  },
+  {
+   "key": "prior",
+   "claims": [
+    {
+     "claim": "1. AWS CloudFront VPC Origins outage Jul 16 2026, about 07:45-11:18 UTC: an internal fleet constraint was reached and the routing-configuration system failed to load the updated configuration.",
+     "verdict": "confirmed",
+     "source_url": "https://dev.classmethod.jp/en/articles/cloudfront-vpc-origin-incident-20260716-log-analysis/",
+     "exact_text_seen": "Search summaries of the AWS final report as relayed by Classmethod, SDxCentral and TechTimes: 'the fleet managing private connections to VPC origins hit an internal constraint. That fleet's limit caused routing configuration distribution to network processors to fail.' / 'The system that pushes routing configuration to the edge could not load updated data correctly.' Timing: 'outage ran from 12:45 AM to 4:18 AM PDT' (= 07:45-11:18 UTC). Caveats: one blog calls the constraint 'routing table capacity', which is not confirmed elsewhere, and 'AWS has not publicly said what the constraint was.'",
+     "was_security_update": "n/a (capacity/constraint failure, not described as a change); not stated"
+    },
+    {
+     "claim": "2. Azure West US Jul 23 2026, PIR ZJV6-SGG: an over-scoped break-fix repair on an optical device; rolling back the maintenance change restored service.",
+     "verdict": "confirmed",
+     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+     "exact_text_seen": "'A break-fix repair was initiated on an optical device to address a network reliability risk' and a defect in the blast radius analysis system 'incorrectly expanded the scope of the repair event to include all optical devices egressing a specific datacenter' (guptadeepak.com outage atlas / surfingcomplexity.blog). BleepingComputer: 'Microsoft initiated a rollback of the maintenance change at 1:45 PM ET, which was completed at 2:26 PM ET. The rollback restored the affected network infrastructure and allowed Microsoft 365 services to recover.' Impact 14:44-19:41 UTC; network restored about 18:26 UTC.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "3. Mastercard Aug 15 2026: 'A scheduled system update caused Mastercard transactions to be declined.'",
+     "verdict": "confirmed",
+     "source_url": "https://ia.acs.org.au/article/2026/-system-update--triggers-major-mastercard-outage.html",
+     "exact_text_seen": "'Mastercard said a scheduled system update caused Mastercard transactions to be declined for a period of time on Saturday.' The quote in the claim is cut short. Note: almost the same words appear in Mastercard's July 2018 statement ('...for a brief period of time earlier today'), so check that the 2026 wording ('for a period of time on Saturday') is the one cited. The IA excerpt also mentions a 'software versioning oversight'. Disruption ran 2:25pm AEST to about 4pm.",
+     "was_security_update": "not stated (Mastercard 'has not said what the update was meant to do')"
+    },
+    {
+     "claim": "4. NYC 911 (Bronx) Aug 18 2026: a Motorola overnight firewall firmware update rated low risk.",
+     "verdict": "confirmed",
+     "source_url": "https://www.beta.nyc/2026/09/10/911-outage-hearing-september-2026/",
+     "exact_text_seen": "'The firewall firmware update on the PSAC 2 Bronx center ran from 9:45 PM on Aug. 17 to 4:13 AM on Aug. 18'; 'Motorola began upgrading firewalls in PSAC-2's routing environment at 9:45 pm Aug. 17'; 'Motorola rated its own change \"low risk.\" Under the city's process, a low-risk change gets logged with the interagency change board but does not need executive sign-off from OTI, NYPD, and FDNY.' Audio loss ran 03:13-10:19 AM. Mainstream outlets (PIX11, NY1) say only 'software update'.",
+     "was_security_update": "not stated (no source gives a reason for the firmware upgrade or says it was a security patch)"
+    },
+    {
+     "claim": "5. Microsoft 365 Aug 31 2026: a code update to the certificate management system stopped distributing certificates, latent until existing certificates expired.",
+     "verdict": "corrected",
+     "source_url": "https://www.proitnw.com/blog/microsoft-365-outage-august-2026-service-credit/",
+     "corrected_value": "Per one secondary blog, which cites Microsoft's PIR published Sep 10 2026, a code update to Microsoft's automated certificate management system caused it to stop distributing a SUBSET OF NEW certificates. No result says the fault stayed latent until existing certificates expired. Microsoft's preliminary public wording was 'an issue within a core authentication configuration used by multiple Microsoft 365 services' (EX1464935/MO1465074).",
+     "exact_text_seen": "'Microsoft's Post Incident Report, published September 10, 2026, gives the final account: a code update to Microsoft's automated certificate management system caused it to stop distributing a subset of new certificates.' This is the only source for it. Other outlets (SSL.com, BornCity) say Microsoft never confirmed a certificate cause.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "6. NATS UK air traffic Sep 8 2026: latent software defect, not cyber.",
+     "verdict": "confirmed",
+     "source_url": "https://www.khaleejtimes.com/business/aviation/uk-flight-chaos-software-defect-air-traffic-control",
+     "exact_text_seen": "'An investigation had ruled out a cyber attack by a hostile actor or sabotage, National Air Traffic Services (NATS) said.' Preliminary report: 'a fault in legacy code which was exposed by processing being interrupted by a higher priority task'; 'a previously unknown legacy defect caused the output to corrupt' (AeroCorner). AeroCorner adds 'no evidence of a malicious actor or cyber activity'.",
+     "was_security_update": "n/a (not change-caused)"
+    },
+    {
+     "claim": "7. Azure Sweden Central Sep 29 2026, PIR 7QL5-Z50: a planned deployment cleared caches at peak hours.",
+     "verdict": "confirmed",
+     "source_url": "https://azure.status.microsoft/en-us/status/history/",
+     "exact_text_seen": "Azure status history: 'At approximately 09:38 UTC on 29 September 2026, a planned deployment of one of these internal services began in Sweden Central. That deployment cleared the service's caches, and because it coincided with peak traffic hours in the region, it caused many cache misses. Two other defects in how that service read from its caches amplified this effect.' Tracking ID 7QL5-Z50 is tied to Sep 29 2026 by the Microsoft Tech Community retrospective event page.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "8. Azure Sep 30 2026, PIR 7Q30-010: paused gateway OS updates all resumed at once.",
+     "verdict": "confirmed",
+     "source_url": "https://www.neoteo.com/en/microsoft-explains-azures-sept-30-oct-1-2026-connectivity-disruption",
+     "exact_text_seen": "'Azure applies OS and security updates to networking gateways in stages... A temporary restriction had paused those updates for a group of gateways, and when it expired, a large number of updates resumed within a short period. That produced a surge in gateway restarts and configuration-retrieval requests, while an earlier deployed change had lengthened the processing time of configuration operations on a shared regional networking control plane.' A contributing gateway-manager change was reverted. Impact 20:30 UTC Sep 30 to 02:15 UTC Oct 1. The source says 'within a short period', not literally 'all at once'. The same text is also covered by rack2cloud.com/paused-rollout-expiry.",
+     "was_security_update": "partially: sources say gateways receive 'OS and security updates' in stages, and the paused batch was those OS servicing updates. No source names a specific security patch."
+    },
+    {
+     "claim": "9. Microsoft 365 Oct 13 2026: part of the GSA infrastructure ran below performance thresholds.",
+     "verdict": "confirmed",
+     "source_url": "https://isdown.app/status/microsoft365/incidents/669391-users-may-be-unable-to-access-multiple-microsoft-365-services-using-global-secure-access-gsa",
+     "exact_text_seen": "Preliminary root cause: 'a section of GSA infrastructure is performing below acceptable performance thresholds, affecting connectivity to Microsoft 365 services.' Scope: 'some users in Germany and the United Kingdom'. Start was 8:00 AM UTC Oct 13 2026. This comes from a third-party mirror of Microsoft service health.",
+     "was_security_update": "n/a (not change-caused)"
+    },
+    {
+     "claim": "10. Google Cloud europe-west2 Oct 20 2026: grid disruption, generators failed to start; Revolut, Lloyds/Halifax, HSBC affected.",
+     "verdict": "confirmed",
+     "source_url": "https://guptadeepak.com/outage-atlas/incidents/google-cloud-europe-west2-2026-10-20/",
+     "exact_text_seen": "Google officially calls it a 'power event' in europe-west2-b (38 products). Third-party tracker: 'an underground cable fault on the utility network that cut feed A, and the generator controller never started the generators'. It also quotes Google's preliminary update of Oct 22: 'PLC automation system, both primary and backup, failed to start the generators' automatic transfer'. Banks: 'Revolut and Lloyds reported disruption' (WSJ); 'Customers of Lloyds Banking Group's Lloyds Bank, Halifax and Bank of Scotland reported issues.' HSBC appears only in outage-tracker lists. The Register: 'According to Down Detector, multiple customers are caught up including Lloyds Bank, HSBC, Royal Mail... and Revolut.' No HSBC statement confirms the link. 'Grid' is not Google's word: it is a third-party account of a utility cable fault.",
+     "was_security_update": "n/a (power event, not change-caused)"
+    },
+    {
+     "claim": "11. Lloyds Banking Group Mar 12 2026: a software defect introduced during an overnight IT update.",
+     "verdict": "confirmed",
+     "source_url": "https://www.theregister.com/2026/03/27/lloyds_app_glitch_turned_transactions/",
+     "exact_text_seen": "'Lloyds blamed a IT change pushed overnight between March 11 and 12, introducing a software defect in the API handling transaction data'; 'Lloyds says a software defect in an overnight IT change caused the problem.' The window was 03:28-08:08, with up to 447,936 customers affected.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "12. Microsoft 365 outage Jan 22 2026, stated cause: elevated service load from reduced capacity during maintenance on a subset of North America infrastructure. A recovery load-balancing configuration change then made it worse.",
+     "verdict": "confirmed",
+     "source_url": "https://groups.google.com/g/a-pl/c/53n5wfcRuhQ",
+     "exact_text_seen": "MO1221364 preliminary root cause: 'elevated service load resulting from reduced capacity during maintenance for a subset of North America hosted infrastructure.' Earlier: 'a portion of dependent service infrastructure in the North America region isn't processing traffic as expected.' Timeline: 'on 01/22/2026 5:30 PM... introduced a targeted load balancing configuration change intended to expedite the recovery process, which incidentally introduced additional impact.' Window 18:55 UTC Jan 22 to 04:45 UTC Jan 23. No detailed final PIR was found.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "13. Deutsche Bahn Jun 23 2026 nationwide GSM-R standstill: scheduled replacement of a technical component.",
+     "verdict": "confirmed",
+     "source_url": "https://www.railjournal.com/telecoms/software-error-caused-national-gsm-r-outage-in-germany/",
+     "exact_text_seen": "'From the Deutsche Bahn's perspective, the cause was the planned replacement of a technical component in the GSM-R system' (ZDFheute). DB InfraGO's later statement: 'The software error occurred at 22.30 during scheduled maintenance work to replace a switch, a network distribution component, which failed to trigger an error message.' The outage lasted 2h 20min.",
+     "was_security_update": "not stated (a search for 'Sicherheitsupdate' found nothing; early media reports mentioned a suspected faulty software update, not a security update)"
+    },
+    {
+     "claim": "14. Telstra Jul 8 2026 nationwide outage: planned maintenance on the network timing system.",
+     "verdict": "confirmed",
+     "source_url": "https://www.telstra.com.au/exchange/what-we-ve-learned-from-the-external-investigation-of-our-july-o",
+     "exact_text_seen": "External TAP findings: 'The trigger was a maintenance job. The outage began at 2:50am following a planned NTP (Network Time Protocol) timing chassis change. During that work, the GPS card in use at Melbourne lost its firmware update setting, and the date reverted to 2006.' Early reports had first blamed a 'software defect' in timing nodes.",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "15. GitHub Actions Aug 6 2026: a routine deployment reduced capacity.",
+     "verdict": "confirmed",
+     "source_url": "https://github.blog/news-insights/company-news/github-availability-report-august-2026/",
+     "exact_text_seen": "'A routine deployment to an internal actions service briefly reduced running capacity in one data center, and within minutes the service mesh and remaining pods saturated.' / 'The deployment's contents were not at fault (we rolled it back to confirm this); instead, replacing pods during the rollout briefly reduced capacity in one site.'",
+     "was_security_update": "not stated"
+    },
+    {
+     "claim": "16. Did any source say an update or firmware in these change-caused outages was a SECURITY update?",
+     "verdict": "unsupported",
+     "source_url": "https://www.neoteo.com/en/microsoft-explains-azures-sept-30-oct-1-2026-connectivity-disruption",
+     "exact_text_seen": "Only the Azure 7Q30-010 (Sep 30) write-up mentions security: 'Azure applies OS and security updates to networking gateways in stages'. Even there, the paused updates are called OS servicing updates, not a named security patch. For NYC 911 (firewall firmware), a targeted search found no reason given for the upgrade. Mastercard has not said what its update did. DB had no 'Sicherheitsupdate' mention. Lloyds, Telstra, GitHub, Azure West US, Azure Sweden Central, M365 Aug 31 and M365 Jan 22 sources do not describe a security update.",
+     "was_security_update": "yes, partially, only for Azure 7Q30-010 (gateway 'OS and security updates'). Not stated for all other change-caused outages (2, 3, 4, 5, 7, 11, 12, 13, 14, 15)."
+    }
+   ]
+  },
+  {
+   "key": "early-ai",
+   "claims": [
+    {
+     "claim": "Google Big Sleep found an exploitable SQLite vulnerability, announced about Nov 1 2024 (first AI-agent-found real-world memory-safety bug claim).",
+     "verdict": "confirmed",
+     "source_url": "https://projectzero.google/2024/10/from-naptime-to-big-sleep.html",
+     "exact_text_seen": "Search summary of the Project Zero post: \"an exploitable stack buffer underflow in SQLite, a widely used open source database engine. The team believes this is the first public example of an AI agent finding a previously unknown exploitable memory-safety issue in widely used real-world software.\" Date: Simon Willison's link blog entry is headed \"1st November 2024 - Link Blog\" (simonwillison.net/2024/Nov/1/from-naptime-to-big-sleep/), and the search summary says the bug \"was disclosed November 1, 2024\". Note: the Project Zero URL path is /2024/10/. Big Sleep found the bug in early October 2024, and SQLite fixed it the same day, before any official release. The claim is Google's own and has not been independently verified."
+    },
+    {
+     "claim": "DARPA AI Cyber Challenge (AIxCC) final results at DEF CON Aug 2025: number of vulnerabilities found and patched by finalist systems.",
+     "verdict": "confirmed",
+     "source_url": "https://darpa.mil/news/2025/aixcc-results",
+     "exact_text_seen": "\"competitors' systems discovered 54 unique synthetic vulnerabilities in the Final Competition's 63 challenges. Of those, they patched 43.\" Also: \"The final seven teams also discovered a total of 18 real-world vulnerabilities\" with \"11 viable patches\" submitted. DARPA's editor's note says an earlier version wrongly stated 70 synthetic vulnerabilities; the corrected total is 63, so 86% were found and 68% patched.",
+     "corrected_value": "Finalist systems found 54 synthetic vulnerabilities and patched 43, out of 63 synthetic vulnerabilities in total (corrected from 70). They also found 18 real-world, non-synthetic vulnerabilities and submitted 11 patches for them. Team Atlanta won first place ($4M) and Trail of Bits' Buttercup took second ($3M)."
+    },
+    {
+     "claim": "XBOW reached No. 1 on the HackerOne US leaderboard around June 2025.",
+     "verdict": "confirmed",
+     "source_url": "https://www.bloomberg.com/news/articles/2025-06-24/one-of-the-best-hackers-in-the-country-is-an-ai-bot",
+     "exact_text_seen": "\"XBOW, an autonomous AI pen-testing tool, reached the top spot on HackerOne's US leaderboard in June 2025.\" The search also returned the XBOW blog post \"top 1 how xbow did it\" (xbow.com/blog/top-1-how-xbow-did-it/) and the Bloomberg article dated 2025-06-24, \"One of the Best Hackers in the Country is an AI Bot\". Caveat from the results: one critic said about 90% of XBOW's score came from cross-site scripting reports, and XBOW said every submission had a human in the loop."
+    },
+    {
+     "claim": "AISLE said (Jan 2026) its AI analyzer found all 12 CVEs in OpenSSL January 2026 release.",
+     "verdict": "confirmed",
+     "source_url": "https://aisle.com/blog/aisle-discovered-12-out-of-12-openssl-vulnerabilities",
+     "exact_text_seen": "AISLE blog title: \"AISLE Discovered 12 out of 12 OpenSSL Vulnerabilities\". GlobeNewswire press release dated 2026/01/27: \"AISLE Researchers Identify 12 New Security Vulnerabilities in OpenSSL Using AI-Driven Discovery\". Search summary: \"AISLE's analyzer is credited with finding all 12 CVEs in OpenSSL's January 2026 coordinated release, which was published January 27, 2026.\" Of the 12, 10 have CVE-2025 identifiers and 2 have CVE-2026 identifiers. One is high severity: CVE-2025-15467, CVSS 8.8. The 'all 12' claim is AISLE's own."
+    },
+    {
+     "claim": "Anthropic (Mar 6 2026): Claude Opus 4.6 found 22 Firefox vulnerabilities in February 2026, more than reported in any single month in 2025.",
+     "verdict": "confirmed",
+     "source_url": "https://www.anthropic.com/news/mozilla-firefox-security",
+     "exact_text_seen": "\"Claude Opus 4.6 found 22 vulnerabilities in February 2026, more than were reported in any single month in 2025.\" Also \"Of the 22 CVEs discovered, Mozilla flagged 14 as high severity.\" The write-up is dated March 6, 2026 (also TechCrunch 2026/03/06). Fixes shipped in Firefox 148 on Feb. 24, 2026. Some outlets placed the two-week analysis in January 2026, but Anthropic's chart attributes the 22 to February 2026."
+    },
+    {
+     "claim": "Microsoft Windows Experience blog Jul 9 2026 (Pavan Davuluri): post on vulnerability management and AI-powered discovery; exact title and key sentence.",
+     "verdict": "confirmed",
+     "source_url": "https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-powered-discovery/",
+     "exact_text_seen": "Title: \"Evolving Windows vulnerability management to meet the speed of AI-powered discovery\". The search identified it as the \"July 9, 2026 Windows Experience blog post by Pavan Davuluri, EVP of Windows and Devices\". Key sentences: \"The pace of vulnerability discovery is changing with advances in AI making it possible to find more issues, faster, across more code.\" and (as quoted by The Register) \"As AI helps defenders discover more issues, customers will see a higher volume of security updates included in each security release\". The post also covers MDASH, Microsoft's multi-model agentic scanning harness. A separate, later post dated Nov 5, 2026 is titled \"A new standard for vulnerability management in the AI era\". The 'higher volume' wording comes from The Register's report; I did not see the original blog text in full.",
+     "corrected_value": "Title: \"Evolving Windows vulnerability management to meet the speed of AI-powered discovery\". Key sentence: \"As AI helps defenders discover more issues, customers will see a higher volume of security updates included in each security release.\""
+    }
+   ]
+  }
+ ]
+}
